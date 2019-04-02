@@ -1,0 +1,19 @@
+<html  xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+  		<link rel="stylesheet" href="style.css">
+	</head>
+
+  <body>
+ 
+    <p th:text="'The result was a ' + ${outcome} + '.'"/>
+ 
+    <p>Thanks for playing. Play again?</p>
+ 
+    <a href="/playagame?choice=rock">rock</a>
+    <a href="/playagame?choice=paper">paper</a>
+    <a href="/playagame?choice=scissors">scissors</a>
+ 
+  </body>
+</html>
+	
